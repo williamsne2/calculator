@@ -1,0 +1,46 @@
+#container-div{
+    width: 450px;
+    height: 650px;
+    background-color: black;
+    margin: 50px auto;
+    padding: 20px;
+    border: solid #808080 1px;
+    border-radius: 20px;
+    grid-gap: 10px;
+}
+
+#inputbox{
+    width: 80%;
+    height: 75px;
+    margin: 10px auto;
+    font-size: 50px;
+    text-align: right;
+    font-style: "Typewriter", serif;
+    padding: 0 10px;
+    grid-row: 1 / 2;
+    grid-column: 1 / span 4;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.calcBtn{
+    height: auto;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    border: solid black 0.5px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+#btn0{
+    border-radius: 40px;
+}
+.operator{
+    background-color: orange;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
